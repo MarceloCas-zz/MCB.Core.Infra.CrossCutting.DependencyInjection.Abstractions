@@ -36,7 +36,7 @@ This project is a source code of [MCB.Core.Infra.CrossCutting.DependencyInjectio
 
 ## Features
 
-- Json Serialization and Json Schema Generator
+- Dependency Injection Abstractions
 
 
 ## Used stack

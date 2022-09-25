@@ -1,4 +1,5 @@
 ﻿using MCB.Core.Infra.CrossCutting.DependencyInjection.Abstractions.Enums;
+using MCB.Core.Infra.CrossCutting.DependencyInjection.Abstractions.Models;
 
 namespace MCB.Core.Infra.CrossCutting.DependencyInjection.Abstractions.Interfaces;
 
@@ -44,4 +45,6 @@ public interface IDependencyInjectionContainer
     void Unregister(Type concreteType);
     void Unregister<T>();
     #endregion
+
+    IEnumerable<Registration> GetRegistrationCollection();
 }

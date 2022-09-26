@@ -7,9 +7,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{66BC32A4-8FB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tst", "tst", "{B8363FC8-4306-41FA-BF3A-D644E447AACE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCB.Core.Infra.CrossCutting.DependencyInjection.Abstractions", "src\MCB.Core.Infra.CrossCutting.DependencyInjection.Abstractions\MCB.Core.Infra.CrossCutting.DependencyInjection.Abstractions.csproj", "{19576489-632C-47FF-8E4A-D041E5878DC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCB.Core.Infra.CrossCutting.DependencyInjection.Abstractions", "src\MCB.Core.Infra.CrossCutting.DependencyInjection.Abstractions\MCB.Core.Infra.CrossCutting.DependencyInjection.Abstractions.csproj", "{19576489-632C-47FF-8E4A-D041E5878DC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCB.Core.Infra.CrossCutting.DependencyInjection.Abstractions.Tests", "tst\MCB.Core.Infra.CrossCutting.DependencyInjection.Abstractions.Tests\MCB.Core.Infra.CrossCutting.DependencyInjection.Abstractions.Tests.csproj", "{D45263E6-15EA-4F61-ABFC-A24BF88F5713}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCB.Core.Infra.CrossCutting.DependencyInjection.Abstractions.Tests", "tst\MCB.Core.Infra.CrossCutting.DependencyInjection.Abstractions.Tests\MCB.Core.Infra.CrossCutting.DependencyInjection.Abstractions.Tests.csproj", "{D45263E6-15EA-4F61-ABFC-A24BF88F5713}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C48F9C04-61D2-4333-B7C2-AD1E44C2EFA4}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build-and-test.yml = .github\workflows\build-and-test.yml
+		.github\workflows\pack-and-publish.yml = .github\workflows\pack-and-publish.yml
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
